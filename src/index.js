@@ -13,12 +13,10 @@ import {HashRouter} from 'react-router-dom';
 //   document.getElementById('root')
 // );
 ReactDOM.render(
-  <React.StrictMode>
     <HashRouter>
       <App />
     </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  , document.getElementById('root')
 );
 
 
