@@ -59,14 +59,14 @@ function NavScrollExample() {
                         navbarScroll
                     >
 
-                        <Nav.Link href="/Doctors_Dashboard" style={{ 'margin-left': "135px" }}>
+                        <Nav.Link href="/HealthCare_Services/Doctors_Dashboard" style={{ 'margin-left': "135px" }}>
                             <img src={dr_logo} alt="Dr" class="dr_logo" />Search Doctors</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
                         <Nav.Link href="/VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
+                        <Nav.Link href="/HealthCare_Services/Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/Lab_Tests"><img src={lt_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Lab Tests</Nav.Link>
+                        <Nav.Link href="/HealthCare_Services/Lab_Tests"><img src={lt_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Lab Tests</Nav.Link>
 
                         {/* <NavDropdown title="Extra" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
