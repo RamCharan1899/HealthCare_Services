@@ -50,7 +50,7 @@ function NavScrollExample() {
     return (
         <Navbar bg="primary" data-bs-theme="dark">
             <Container fluid>
-                <Navbar.Brand href="/"><h3>Health Services(Logo)</h3></Navbar.Brand>
+                <Navbar.Brand href="/"><h3>Health Services(Logo1)</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -62,7 +62,7 @@ function NavScrollExample() {
                         <Nav.Link href="/HealthCare_Services/Doctors_Dashboard" style={{ 'margin-left': "135px" }}>
                             <img src={dr_logo} alt="Dr" class="dr_logo" />Search Doctors</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
+                        <Nav.Link href="/HealthCare_Services/VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
                         <Nav.Link href="/HealthCare_Services/Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
