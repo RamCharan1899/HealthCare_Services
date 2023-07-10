@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { HashRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/Doctors_Dashboard';
 import Blogs from './pages/Pharmacy';
@@ -10,7 +10,6 @@ import Contact from './pages/VC_Doctors';
 
 function App() {
 	return (
-		<HashRouter>
 		<Router>
 			<Navbar />
 			<Routes>
@@ -21,7 +20,6 @@ function App() {
 				<Route path='/Lab_Tests' element={<SignUp />} />
 			</Routes>
 		</Router>
-		</HashRouter>
 	);
 }
 
