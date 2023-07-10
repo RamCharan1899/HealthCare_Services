@@ -50,7 +50,7 @@ function NavScrollExample() {
     return (
         <Navbar bg="primary" data-bs-theme="dark">
             <Container fluid>
-                <Navbar.Brand href="/"><h3>Health Services(Rename)</h3></Navbar.Brand>
+                <Navbar.Brand href="/"><h3>Health Services(Logo)</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
